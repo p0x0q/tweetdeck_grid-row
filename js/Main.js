@@ -15,7 +15,7 @@ function p0x0q_runnerloop(){
 		if(!columns)return;
 		var column_width_percent = 100 / columns;
 		console.log("RUN:"+column_width_percent);
-		jQuery("html .is-wide-columns .column").css({'cssText': "width: calc("+column_width_percent+"% - 6px) !important"});
+		jQuery("html .app-columns-container .column").css({'cssText': "width: calc("+column_width_percent+"% - 6px) !important"});
 	}
 }
 
