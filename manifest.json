@@ -1,7 +1,7 @@
 ﻿{
     "manifest_version": 2,
     "name": "TweetDeckのcolumnをページサイズに合わせる",
-    "version": "1.02",
+    "version": "1.03",
     "description": "https://tweetdeck.twitter.com/ において、columnをグリット表示に対応させます。",
   "browser_action": {
     "default_icon": {
